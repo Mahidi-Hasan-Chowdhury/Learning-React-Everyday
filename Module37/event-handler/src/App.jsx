@@ -6,6 +6,7 @@ import './App.css'
 
 import Counter from './Counter'
 import Batsman from './Batsman'
+import Toggle from './Toggle'
 
 function App() {
   function handleClick() {
@@ -34,6 +35,8 @@ function App() {
 
 
        <Counter></Counter>
+
+       <Toggle></Toggle>
 
        <Batsman></Batsman>
     </div>
