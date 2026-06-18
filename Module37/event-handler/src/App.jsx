@@ -8,6 +8,7 @@ import Counter from './Counter'
 import Batsman from './Batsman'
 import Toggle from './Toggle'
 import GreetingInput from './GreetingInput'
+import Users from './Users'
 
 function App() {
   function handleClick() {
@@ -40,6 +41,8 @@ function App() {
        <Toggle></Toggle>
 
        <GreetingInput></GreetingInput>
+
+       <Users></Users>
 
        <Batsman></Batsman>
     </div>
