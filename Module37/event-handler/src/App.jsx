@@ -9,6 +9,7 @@ import Batsman from './Batsman'
 import Toggle from './Toggle'
 import GreetingInput from './GreetingInput'
 import Users from './Users'
+import TodoList from './TodoList'
 
 function App() {
   function handleClick() {
@@ -41,6 +42,8 @@ function App() {
        <Toggle></Toggle>
 
        <GreetingInput></GreetingInput>
+
+       <TodoList></TodoList>
 
        <Users></Users>
 
