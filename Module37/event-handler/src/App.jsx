@@ -10,6 +10,7 @@ import Toggle from './Toggle'
 import GreetingInput from './GreetingInput'
 import Users from './Users'
 import TodoList from './TodoList'
+import FeedbackForm from './FeedbackForm'
 
 function App() {
   function handleClick() {
@@ -44,6 +45,8 @@ function App() {
        <GreetingInput></GreetingInput>
 
        <TodoList></TodoList>
+
+       <FeedbackForm></FeedbackForm>
 
        <Users></Users>
 
