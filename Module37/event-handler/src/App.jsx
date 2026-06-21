@@ -11,6 +11,7 @@ import GreetingInput from './GreetingInput'
 import Users from './Users'
 import TodoList from './TodoList'
 import FeedbackForm from './FeedbackForm'
+import ProductSearch from './ProductSearch'
 
 function App() {
   function handleClick() {
@@ -47,6 +48,8 @@ function App() {
        <TodoList></TodoList>
 
        <FeedbackForm></FeedbackForm>
+
+       <ProductSearch></ProductSearch>
 
        <Users></Users>
 
