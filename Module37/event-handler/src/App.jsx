@@ -12,6 +12,7 @@ import Users from './Users'
 import TodoList from './TodoList'
 import FeedbackForm from './FeedbackForm'
 import ProductSearch from './ProductSearch'
+import Stopwatch from './Stopwatch'
 
 function App() {
   function handleClick() {
@@ -50,6 +51,8 @@ function App() {
        <FeedbackForm></FeedbackForm>
 
        <ProductSearch></ProductSearch>
+
+       <Stopwatch></Stopwatch>
 
        <Users></Users>
 
