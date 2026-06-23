@@ -13,6 +13,7 @@ import TodoList from './TodoList'
 import FeedbackForm from './FeedbackForm'
 import ProductSearch from './ProductSearch'
 import Stopwatch from './Stopwatch'
+import WindowResizeListener from './WindowResizeListener'
 
 function App() {
   function handleClick() {
@@ -53,6 +54,8 @@ function App() {
        <ProductSearch></ProductSearch>
 
        <Stopwatch></Stopwatch>
+
+       <WindowResizeListener></WindowResizeListener>
 
        <Users></Users>
 
