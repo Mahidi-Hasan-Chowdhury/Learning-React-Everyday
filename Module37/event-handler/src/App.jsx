@@ -14,6 +14,7 @@ import FeedbackForm from './FeedbackForm'
 import ProductSearch from './ProductSearch'
 import Stopwatch from './Stopwatch'
 import WindowResizeListener from './WindowResizeListener'
+import SimpleTabs from './SimpleTabs'
 
 function App() {
   function handleClick() {
@@ -56,6 +57,8 @@ function App() {
        <Stopwatch></Stopwatch>
 
        <WindowResizeListener></WindowResizeListener>
+
+       <SimpleTabs></SimpleTabs>
 
        <Users></Users>
 
