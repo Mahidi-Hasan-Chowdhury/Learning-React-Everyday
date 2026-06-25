@@ -15,6 +15,7 @@ import ProductSearch from './ProductSearch'
 import Stopwatch from './Stopwatch'
 import WindowResizeListener from './WindowResizeListener'
 import SimpleTabs from './SimpleTabs'
+import PersistentNote from './PersistentNote'
 
 function App() {
   function handleClick() {
@@ -59,6 +60,8 @@ function App() {
        <WindowResizeListener></WindowResizeListener>
 
        <SimpleTabs></SimpleTabs>
+
+       <PersistentNote></PersistentNote>
 
        <Users></Users>
 
