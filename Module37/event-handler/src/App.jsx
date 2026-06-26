@@ -16,6 +16,7 @@ import Stopwatch from './Stopwatch'
 import WindowResizeListener from './WindowResizeListener'
 import SimpleTabs from './SimpleTabs'
 import PersistentNote from './PersistentNote'
+import QuoteGenerator from './QuoteGenerator'
 
 function App() {
   function handleClick() {
@@ -62,6 +63,8 @@ function App() {
        <SimpleTabs></SimpleTabs>
 
        <PersistentNote></PersistentNote>
+
+       <QuoteGenerator></QuoteGenerator>
 
        <Users></Users>
 
