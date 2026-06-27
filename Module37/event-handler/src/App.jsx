@@ -17,6 +17,7 @@ import WindowResizeListener from './WindowResizeListener'
 import SimpleTabs from './SimpleTabs'
 import PersistentNote from './PersistentNote'
 import QuoteGenerator from './QuoteGenerator'
+import TempConverter from './TempConverter'
 
 function App() {
   function handleClick() {
@@ -65,6 +66,8 @@ function App() {
        <PersistentNote></PersistentNote>
 
        <QuoteGenerator></QuoteGenerator>
+
+       <TempConverter></TempConverter>
 
        <Users></Users>
 
