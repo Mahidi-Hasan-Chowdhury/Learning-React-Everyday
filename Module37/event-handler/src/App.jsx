@@ -18,6 +18,7 @@ import SimpleTabs from './SimpleTabs'
 import PersistentNote from './PersistentNote'
 import QuoteGenerator from './QuoteGenerator'
 import TempConverter from './TempConverter'
+import RegisterForm from './RegisterForm'
 
 function App() {
   function handleClick() {
@@ -68,6 +69,8 @@ function App() {
        <QuoteGenerator></QuoteGenerator>
 
        <TempConverter></TempConverter>
+
+       <RegisterForm></RegisterForm>
 
        <Users></Users>
 
