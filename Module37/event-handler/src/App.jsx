@@ -19,6 +19,7 @@ import PersistentNote from './PersistentNote'
 import QuoteGenerator from './QuoteGenerator'
 import TempConverter from './TempConverter'
 import RegisterForm from './RegisterForm'
+import ThemeSwitcher from './ThemeSwitcher'
 
 function App() {
   function handleClick() {
@@ -71,6 +72,8 @@ function App() {
        <TempConverter></TempConverter>
 
        <RegisterForm></RegisterForm>
+
+       <ThemeSwitcher></ThemeSwitcher>
 
        <Users></Users>
 

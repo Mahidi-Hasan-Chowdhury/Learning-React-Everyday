@@ -52,7 +52,43 @@
 
 body {
   margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+body.theme-light {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+}
+
+body.theme-dark {
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #16171d;
+  --border: #2e303a;
+  --code-bg: #1f2028;
+}
+
+body.theme-solar {
+  --text: #586e75;
+  --text-h: #073642;
+  --bg: #fdf6e3;
+  --border: #93a1a1;
+  --code-bg: #eee8d5;
+}
+
+body.theme-cyber {
+  --text: #00f5d4;
+  --text-h: #ff007f;
+  --bg: #001219;
+  --border: #9b5de5;
+  --code-bg: #1a0033;
+}
+
 
 #root {
   width: 1126px;
