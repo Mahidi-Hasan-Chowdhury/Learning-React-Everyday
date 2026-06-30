@@ -20,6 +20,7 @@ import QuoteGenerator from './QuoteGenerator'
 import TempConverter from './TempConverter'
 import RegisterForm from './RegisterForm'
 import ThemeSwitcher from './ThemeSwitcher'
+import SimpleModal from './SimpleModal'
 
 function App() {
   function handleClick() {
@@ -74,6 +75,8 @@ function App() {
        <RegisterForm></RegisterForm>
 
        <ThemeSwitcher></ThemeSwitcher>
+
+       <SimpleModal></SimpleModal>
 
        <Users></Users>
 
