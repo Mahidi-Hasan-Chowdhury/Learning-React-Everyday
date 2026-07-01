@@ -21,6 +21,7 @@ import TempConverter from './TempConverter'
 import RegisterForm from './RegisterForm'
 import ThemeSwitcher from './ThemeSwitcher'
 import SimpleModal from './SimpleModal'
+import SimpleQuiz from './SimpleQuiz'
 
 function App() {
   function handleClick() {
@@ -77,6 +78,8 @@ function App() {
        <ThemeSwitcher></ThemeSwitcher>
 
        <SimpleModal></SimpleModal>
+
+       <SimpleQuiz></SimpleQuiz>
 
        <Users></Users>
 
