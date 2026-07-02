@@ -22,6 +22,7 @@ import RegisterForm from './RegisterForm'
 import ThemeSwitcher from './ThemeSwitcher'
 import SimpleModal from './SimpleModal'
 import SimpleQuiz from './SimpleQuiz'
+import SimpleAccordion from './SimpleAccordion'
 
 function App() {
   function handleClick() {
@@ -80,6 +81,8 @@ function App() {
        <SimpleModal></SimpleModal>
 
        <SimpleQuiz></SimpleQuiz>
+
+       <SimpleAccordion></SimpleAccordion>
 
        <Users></Users>
 
