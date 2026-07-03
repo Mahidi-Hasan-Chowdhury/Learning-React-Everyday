@@ -23,6 +23,7 @@ import ThemeSwitcher from './ThemeSwitcher'
 import SimpleModal from './SimpleModal'
 import SimpleQuiz from './SimpleQuiz'
 import SimpleAccordion from './SimpleAccordion'
+import CountdownTimer from './CountdownTimer'
 
 function App() {
   function handleClick() {
@@ -83,6 +84,8 @@ function App() {
        <SimpleQuiz></SimpleQuiz>
 
        <SimpleAccordion></SimpleAccordion>
+
+       <CountdownTimer></CountdownTimer>
 
        <Users></Users>
 
