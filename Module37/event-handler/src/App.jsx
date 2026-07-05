@@ -25,6 +25,7 @@ import SimpleQuiz from './SimpleQuiz'
 import SimpleAccordion from './SimpleAccordion'
 import CountdownTimer from './CountdownTimer'
 import StepProgress from './StepProgress'
+import SimpleCalculator from './SimpleCalculator'
 
 function App() {
   function handleClick() {
@@ -89,6 +90,8 @@ function App() {
        <CountdownTimer></CountdownTimer>
 
        <StepProgress></StepProgress>
+
+       <SimpleCalculator></SimpleCalculator>
 
        <Users></Users>
 
