@@ -26,6 +26,7 @@ import SimpleAccordion from './SimpleAccordion'
 import CountdownTimer from './CountdownTimer'
 import StepProgress from './StepProgress'
 import SimpleCalculator from './SimpleCalculator'
+import ColorPaletteGenerator from './ColorPaletteGenerator'
 
 function App() {
   function handleClick() {
@@ -92,6 +93,8 @@ function App() {
        <StepProgress></StepProgress>
 
        <SimpleCalculator></SimpleCalculator>
+
+       <ColorPaletteGenerator></ColorPaletteGenerator>
 
        <Users></Users>
 
