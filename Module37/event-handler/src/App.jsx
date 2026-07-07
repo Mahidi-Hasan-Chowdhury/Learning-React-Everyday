@@ -27,6 +27,7 @@ import CountdownTimer from './CountdownTimer'
 import StepProgress from './StepProgress'
 import SimpleCalculator from './SimpleCalculator'
 import ColorPaletteGenerator from './ColorPaletteGenerator'
+import CurrencyConverter from './CurrencyConverter'
 
 function App() {
   function handleClick() {
@@ -95,6 +96,8 @@ function App() {
        <SimpleCalculator></SimpleCalculator>
 
        <ColorPaletteGenerator></ColorPaletteGenerator>
+
+       <CurrencyConverter></CurrencyConverter>
 
        <Users></Users>
 
