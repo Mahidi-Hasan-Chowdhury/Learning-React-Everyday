@@ -28,6 +28,7 @@ import StepProgress from './StepProgress'
 import SimpleCalculator from './SimpleCalculator'
 import ColorPaletteGenerator from './ColorPaletteGenerator'
 import CurrencyConverter from './CurrencyConverter'
+import BmiCalculator from './BmiCalculator'
 
 function App() {
   function handleClick() {
@@ -98,6 +99,8 @@ function App() {
        <ColorPaletteGenerator></ColorPaletteGenerator>
 
        <CurrencyConverter></CurrencyConverter>
+
+       <BmiCalculator></BmiCalculator>
 
        <Users></Users>
 
