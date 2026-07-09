@@ -29,6 +29,7 @@ import SimpleCalculator from './SimpleCalculator'
 import ColorPaletteGenerator from './ColorPaletteGenerator'
 import CurrencyConverter from './CurrencyConverter'
 import BmiCalculator from './BmiCalculator'
+import TipCalculator from './TipCalculator'
 
 function App() {
   function handleClick() {
@@ -101,6 +102,8 @@ function App() {
        <CurrencyConverter></CurrencyConverter>
 
        <BmiCalculator></BmiCalculator>
+
+       <TipCalculator></TipCalculator>
 
        <Users></Users>
 
