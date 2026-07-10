@@ -30,6 +30,7 @@ import ColorPaletteGenerator from './ColorPaletteGenerator'
 import CurrencyConverter from './CurrencyConverter'
 import BmiCalculator from './BmiCalculator'
 import TipCalculator from './TipCalculator'
+import PasswordGenerator from './PasswordGenerator'
 
 function App() {
   function handleClick() {
@@ -104,6 +105,8 @@ function App() {
        <BmiCalculator></BmiCalculator>
 
        <TipCalculator></TipCalculator>
+
+       <PasswordGenerator></PasswordGenerator>
 
        <Users></Users>
 
