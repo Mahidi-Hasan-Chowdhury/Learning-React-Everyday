@@ -31,6 +31,7 @@ import CurrencyConverter from './CurrencyConverter'
 import BmiCalculator from './BmiCalculator'
 import TipCalculator from './TipCalculator'
 import PasswordGenerator from './PasswordGenerator'
+import TextAnalyzer from './TextAnalyzer'
 
 function App() {
   function handleClick() {
@@ -107,6 +108,8 @@ function App() {
        <TipCalculator></TipCalculator>
 
        <PasswordGenerator></PasswordGenerator>
+
+       <TextAnalyzer></TextAnalyzer>
 
        <Users></Users>
 
