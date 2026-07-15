@@ -32,6 +32,7 @@ import BmiCalculator from './BmiCalculator'
 import TipCalculator from './TipCalculator'
 import PasswordGenerator from './PasswordGenerator'
 import TextAnalyzer from './TextAnalyzer'
+import AgeCalculator from './AgeCalculator'
 
 function App() {
   function handleClick() {
@@ -110,6 +111,8 @@ function App() {
        <PasswordGenerator></PasswordGenerator>
 
        <TextAnalyzer></TextAnalyzer>
+
+       <AgeCalculator></AgeCalculator>
 
        <Users></Users>
 
