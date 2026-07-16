@@ -33,6 +33,7 @@ import TipCalculator from './TipCalculator'
 import PasswordGenerator from './PasswordGenerator'
 import TextAnalyzer from './TextAnalyzer'
 import AgeCalculator from './AgeCalculator'
+import WordScrambleGame from './WordScrambleGame'
 
 function App() {
   function handleClick() {
@@ -113,6 +114,8 @@ function App() {
        <TextAnalyzer></TextAnalyzer>
 
        <AgeCalculator></AgeCalculator>
+
+       <WordScrambleGame></WordScrambleGame>
 
        <Users></Users>
 
