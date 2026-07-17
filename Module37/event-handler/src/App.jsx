@@ -37,6 +37,7 @@ import WordScrambleGame from './WordScrambleGame'
 import ReactionTimerGame from './ReactionTimerGame'
 import RandomNumberGenerator from './RandomNumberGenerator'
 import CoinFlipper from './CoinFlipper'
+import DiceRoller from './DiceRoller'
 
 function App() {
   function handleClick() {
@@ -125,6 +126,8 @@ function App() {
        <RandomNumberGenerator></RandomNumberGenerator>
 
        <CoinFlipper></CoinFlipper>
+
+       <DiceRoller></DiceRoller>
 
        <Users></Users>
 
