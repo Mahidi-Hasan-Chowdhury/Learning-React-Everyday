@@ -42,6 +42,7 @@ import SimpleShoppingCart from './SimpleShoppingCart'
 import ClickSpeedTester from './ClickSpeedTester'
 import SimpleRating from './SimpleRating'
 import NumberSystemConverter from './NumberSystemConverter'
+import PercentageCalculator from './PercentageCalculator'
 
 function App() {
   function handleClick() {
@@ -140,6 +141,8 @@ function App() {
        <SimpleRating></SimpleRating>
 
        <NumberSystemConverter></NumberSystemConverter>
+
+       <PercentageCalculator></PercentageCalculator>
 
        <Users></Users>
 
