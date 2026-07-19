@@ -39,6 +39,7 @@ import RandomNumberGenerator from './RandomNumberGenerator'
 import CoinFlipper from './CoinFlipper'
 import DiceRoller from './DiceRoller'
 import SimpleShoppingCart from './SimpleShoppingCart'
+import ClickSpeedTester from './ClickSpeedTester'
 
 function App() {
   function handleClick() {
@@ -131,6 +132,8 @@ function App() {
        <DiceRoller></DiceRoller>
 
        <SimpleShoppingCart></SimpleShoppingCart>
+
+       <ClickSpeedTester></ClickSpeedTester>
 
        <Users></Users>
 
