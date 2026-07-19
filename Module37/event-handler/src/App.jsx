@@ -40,6 +40,7 @@ import CoinFlipper from './CoinFlipper'
 import DiceRoller from './DiceRoller'
 import SimpleShoppingCart from './SimpleShoppingCart'
 import ClickSpeedTester from './ClickSpeedTester'
+import SimpleRating from './SimpleRating'
 
 function App() {
   function handleClick() {
@@ -134,6 +135,8 @@ function App() {
        <SimpleShoppingCart></SimpleShoppingCart>
 
        <ClickSpeedTester></ClickSpeedTester>
+
+       <SimpleRating></SimpleRating>
 
        <Users></Users>
 
