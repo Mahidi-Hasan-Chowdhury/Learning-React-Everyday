@@ -41,6 +41,7 @@ import DiceRoller from './DiceRoller'
 import SimpleShoppingCart from './SimpleShoppingCart'
 import ClickSpeedTester from './ClickSpeedTester'
 import SimpleRating from './SimpleRating'
+import NumberSystemConverter from './NumberSystemConverter'
 
 function App() {
   function handleClick() {
@@ -137,6 +138,8 @@ function App() {
        <ClickSpeedTester></ClickSpeedTester>
 
        <SimpleRating></SimpleRating>
+
+       <NumberSystemConverter></NumberSystemConverter>
 
        <Users></Users>
 
