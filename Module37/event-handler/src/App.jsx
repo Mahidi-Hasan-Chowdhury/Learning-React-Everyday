@@ -43,6 +43,7 @@ import ClickSpeedTester from './ClickSpeedTester'
 import SimpleRating from './SimpleRating'
 import NumberSystemConverter from './NumberSystemConverter'
 import PercentageCalculator from './PercentageCalculator'
+import RgbColorMixer from './RgbColorMixer'
 
 function App() {
   function handleClick() {
@@ -143,6 +144,8 @@ function App() {
        <NumberSystemConverter></NumberSystemConverter>
 
        <PercentageCalculator></PercentageCalculator>
+
+       <RgbColorMixer></RgbColorMixer>
 
        <Users></Users>
 
