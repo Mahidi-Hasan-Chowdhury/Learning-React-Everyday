@@ -44,6 +44,7 @@ import SimpleRating from './SimpleRating'
 import NumberSystemConverter from './NumberSystemConverter'
 import PercentageCalculator from './PercentageCalculator'
 import RgbColorMixer from './RgbColorMixer'
+import SimpleCanvas from './SimpleCanvas'
 
 function App() {
   function handleClick() {
@@ -146,6 +147,8 @@ function App() {
        <PercentageCalculator></PercentageCalculator>
 
        <RgbColorMixer></RgbColorMixer>
+
+       <SimpleCanvas></SimpleCanvas>
 
        <Users></Users>
 
