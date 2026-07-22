@@ -45,6 +45,7 @@ import NumberSystemConverter from './NumberSystemConverter'
 import PercentageCalculator from './PercentageCalculator'
 import RgbColorMixer from './RgbColorMixer'
 import SimpleCanvas from './SimpleCanvas'
+import PomodoroTimer from './PomodoroTimer'
 
 function App() {
   function handleClick() {
@@ -149,6 +150,8 @@ function App() {
        <RgbColorMixer></RgbColorMixer>
 
        <SimpleCanvas></SimpleCanvas>
+
+       <PomodoroTimer></PomodoroTimer>
 
        <Users></Users>
 
