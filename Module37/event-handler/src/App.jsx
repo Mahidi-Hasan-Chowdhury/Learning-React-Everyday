@@ -17,8 +17,6 @@ import WindowResizeListener from './WindowResizeListener'
 import SimpleTabs from './SimpleTabs'
 import PersistentNote from './PersistentNote'
 import QuoteGenerator from './QuoteGenerator'
-import TempConverter from './TempConverter'
-import RegisterForm from './RegisterForm'
 import ThemeSwitcher from './ThemeSwitcher'
 import SimpleModal from './SimpleModal'
 import SimpleQuiz from './SimpleQuiz'
@@ -46,6 +44,7 @@ import PercentageCalculator from './PercentageCalculator'
 import RgbColorMixer from './RgbColorMixer'
 import SimpleCanvas from './SimpleCanvas'
 import PomodoroTimer from './PomodoroTimer'
+import FlashcardApp from './FlashcardApp'
 
 function App() {
   function handleClick() {
@@ -152,6 +151,8 @@ function App() {
        <SimpleCanvas></SimpleCanvas>
 
        <PomodoroTimer></PomodoroTimer>
+
+       <FlashcardApp></FlashcardApp>
 
        <Users></Users>
 
