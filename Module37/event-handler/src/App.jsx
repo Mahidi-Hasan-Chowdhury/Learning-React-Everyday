@@ -48,6 +48,7 @@ import SimpleCanvas from './SimpleCanvas'
 import PomodoroTimer from './PomodoroTimer'
 import FlashcardApp from './FlashcardApp'
 import UnitConverter from './UnitConverter'
+import DiscountCalculator from './DiscountCalculator'
 
 function App() {
   function handleClick() {
@@ -158,6 +159,8 @@ function App() {
        <FlashcardApp></FlashcardApp>
 
        <UnitConverter></UnitConverter>
+
+       <DiscountCalculator></DiscountCalculator>
 
        <Users></Users>
 
