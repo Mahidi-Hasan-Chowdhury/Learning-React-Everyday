@@ -49,6 +49,7 @@ import PomodoroTimer from './PomodoroTimer'
 import FlashcardApp from './FlashcardApp'
 import UnitConverter from './UnitConverter'
 import DiscountCalculator from './DiscountCalculator'
+import SimpleExpenseTracker from './SimpleExpenseTracker'
 
 function App() {
   function handleClick() {
@@ -161,6 +162,8 @@ function App() {
        <UnitConverter></UnitConverter>
 
        <DiscountCalculator></DiscountCalculator>
+
+       <SimpleExpenseTracker></SimpleExpenseTracker>
 
        <Users></Users>
 
