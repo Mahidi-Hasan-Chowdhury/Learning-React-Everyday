@@ -50,6 +50,7 @@ import FlashcardApp from './FlashcardApp'
 import UnitConverter from './UnitConverter'
 import DiscountCalculator from './DiscountCalculator'
 import SimpleExpenseTracker from './SimpleExpenseTracker'
+import BMICalculatorDetailed from './BMICalculatorDetailed'
 
 function App() {
   function handleClick() {
@@ -164,6 +165,8 @@ function App() {
        <DiscountCalculator></DiscountCalculator>
 
        <SimpleExpenseTracker></SimpleExpenseTracker>
+
+       <BMICalculatorDetailed></BMICalculatorDetailed>
 
        <Users></Users>
 
