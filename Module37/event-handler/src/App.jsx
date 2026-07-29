@@ -51,6 +51,7 @@ import UnitConverter from './UnitConverter'
 import DiscountCalculator from './DiscountCalculator'
 import SimpleExpenseTracker from './SimpleExpenseTracker'
 import BMICalculatorDetailed from './BMICalculatorDetailed'
+import CompoundInterestCalculator from './CompoundInterestCalculator'
 
 function App() {
   function handleClick() {
@@ -167,6 +168,8 @@ function App() {
        <SimpleExpenseTracker></SimpleExpenseTracker>
 
        <BMICalculatorDetailed></BMICalculatorDetailed>
+
+       <CompoundInterestCalculator></CompoundInterestCalculator>
 
        <Users></Users>
 
