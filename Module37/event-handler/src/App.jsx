@@ -52,6 +52,7 @@ import DiscountCalculator from './DiscountCalculator'
 import SimpleExpenseTracker from './SimpleExpenseTracker'
 import BMICalculatorDetailed from './BMICalculatorDetailed'
 import CompoundInterestCalculator from './CompoundInterestCalculator'
+import LoanPayoffCalculator from './LoanPayoffCalculator'
 
 function App() {
   function handleClick() {
@@ -170,6 +171,8 @@ function App() {
        <BMICalculatorDetailed></BMICalculatorDetailed>
 
        <CompoundInterestCalculator></CompoundInterestCalculator>
+
+       <LoanPayoffCalculator></LoanPayoffCalculator>
 
        <Users></Users>
 
